@@ -1,0 +1,17 @@
+
+.DropDown{
+  background:black;
+  box-shadow:0.3px 0.5px 6px 0.5px rgb(5, 5, 5);
+  opacity:0.9;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  bottom:-1%;
+  padding:10px;
+  margin:-8px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  z-index:200;
+
+}
