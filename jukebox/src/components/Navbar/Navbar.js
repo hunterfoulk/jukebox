@@ -8,6 +8,8 @@ import FormDialog from '../login/loginModal';
 import Link from '@material-ui/core/Link';
 import Signup from '../Signup/Signup';
 
+
+
 function Navbar() {
 
 
@@ -61,7 +63,7 @@ function Navbar() {
                 <FormDialog open={loginOpen} handleClose={handleLoginClose} />
                 <Signup open={registerOpen} handleClose={handleRegisterClose} />
                     
-            
+               
                 </div>
 
                 </nav>

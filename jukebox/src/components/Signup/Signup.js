@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import Link from '@material-ui/core/Link';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
@@ -21,7 +20,7 @@ export default function RegisterDialog({open, handleClose}) {
 
         <DialogContent>
           <DialogContentText>
-            Please enter your Username and Password to login.
+            Please Create a Username and Password to Sign up.
           </DialogContentText>
             <TextField
             autoFocus
@@ -43,18 +42,16 @@ export default function RegisterDialog({open, handleClose}) {
             autoFocus
             margin="dense"
             id="name"
-            label="Password"
+            label="Confirm Password"
             type="email"
             fullWidth
           />
         </DialogContent>
 
         <DialogActions>
+          
           <Button onClick={handleClose} color="primary">
-            forgot password?
-          </Button>
-          <Button onClick={handleClose} color="primary">
-            Login
+            Sign up!
           </Button>
         </DialogActions>
       </Dialog>
