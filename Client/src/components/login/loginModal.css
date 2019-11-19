@@ -1,0 +1,17 @@
+.login_logo {
+  background-color: black;
+  opacity: .9;
+}
+
+.login_logo img{
+    width:110px;
+    padding: 20px 0px 0px 20px;
+
+}
+
+input[type=email]{
+  border-bottom:solid 1px white;
+}
+input[type=password]{
+  border-bottom:solid 1px white;
+}

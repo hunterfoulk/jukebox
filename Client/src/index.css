@@ -1,0 +1,13 @@
+html {
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 0, 0.6);
+}
